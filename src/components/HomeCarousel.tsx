@@ -25,7 +25,7 @@ const HomeCarousel = () => {
   const slides: Slide[] = [
     {
       image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?q=80&w=1000",
-      title: "Collection Printemps-Été",
+      title: "Collection Marie Thérèse Fun",
       subtitle: "Découvrez nos nouvelles créations légères et colorées",
       buttonText: "Voir la collection",
       buttonLink: "/boutique"
