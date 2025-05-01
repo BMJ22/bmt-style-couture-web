@@ -8,6 +8,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import ConsultationsPage from "./pages/Consultations";
+import BoutiquePage from "./pages/Boutique";
+import BoutiqueDetailPage from "./pages/BoutiqueDetail";
+import SurMesurePage from "./pages/SurMesure";
+import FormationsPage from "./pages/Formations";
+import RealisationsPage from "./pages/Realisations";
+import BlogPage from "./pages/Blog";
+import AProposPage from "./pages/APropos";
+import ContactPage from "./pages/Contact";
+import UpcyclingPage from "./pages/Upcycling";
 
 const queryClient = new QueryClient();
 
@@ -19,17 +28,16 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          {/* Routes will be added as we build out the site */}
-          <Route path="/boutique" element={<NotFound />} />
-          <Route path="/boutique/:id" element={<NotFound />} />
-          <Route path="/sur-mesure" element={<NotFound />} />
-          <Route path="/formations" element={<NotFound />} />
+          <Route path="/boutique" element={<BoutiquePage />} />
+          <Route path="/boutique/:id" element={<BoutiqueDetailPage />} />
+          <Route path="/sur-mesure" element={<SurMesurePage />} />
+          <Route path="/formations" element={<FormationsPage />} />
           <Route path="/consultations" element={<ConsultationsPage />} />
-          <Route path="/realisations" element={<NotFound />} />
-          <Route path="/blog" element={<NotFound />} />
-          <Route path="/a-propos" element={<NotFound />} />
-          <Route path="/contact" element={<NotFound />} />
-          <Route path="/upcycling" element={<NotFound />} />
+          <Route path="/realisations" element={<RealisationsPage />} />
+          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/a-propos" element={<AProposPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/upcycling" element={<UpcyclingPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
