@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import HeroSection from "@/components/HeroSection";
+import HomeCarousel from "@/components/HomeCarousel";
 import FeaturedServices from "@/components/FeaturedServices";
 import FeaturedProducts from "@/components/FeaturedProducts";
 import Testimonials from "@/components/Testimonials";
@@ -15,7 +15,7 @@ const Index = () => {
     <div className="min-h-screen bg-white">
       <Header />
       <main>
-        <HeroSection />
+        <HomeCarousel />
         <FeaturedServices />
         <FeaturedProducts />
         <Testimonials />
