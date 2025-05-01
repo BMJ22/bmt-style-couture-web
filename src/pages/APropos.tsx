@@ -29,7 +29,7 @@ const AProposPage = () => {
               <div>
                 <h2 className="text-3xl font-playfair font-bold mb-6">Notre Histoire</h2>
                 <p className="text-gray-600 mb-4">
-                  Fondée en 2015 à Yaoundé par Brigitte Meboulou, BMT Style est née d'une passion pour la 
+                  Fondée en 2020 à Douala au Cameroun par Madame BISSOHONG Marie Thérèse, BMT Style est née d'une passion pour la 
                   couture et d'un désir de créer des vêtements uniques qui célèbrent l'individualité.
                 </p>
                 <p className="text-gray-600 mb-4">
@@ -116,10 +116,10 @@ const AProposPage = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold mb-1">Brigitte Meboulou</h3>
+                <h3 className="text-xl font-bold mb-1">Marie Thérèse BISSOHONG</h3>
                 <p className="text-amber-600 mb-4">Fondatrice & Designer Principal</p>
                 <p className="text-gray-600">
-                  Passionnée de mode depuis son plus jeune âge, Brigitte apporte sa vision créative 
+                  Passionnée de mode depuis son plus jeune âge, Marie Thérèse apporte sa vision créative 
                   et son expertise technique à chaque projet.
                 </p>
               </div>
@@ -132,10 +132,10 @@ const AProposPage = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold mb-1">Thomas Essomba</h3>
+                <h3 className="text-xl font-bold mb-1">Derrick BILONG</h3>
                 <p className="text-amber-600 mb-4">Maître Tailleur</p>
                 <p className="text-gray-600">
-                  Avec plus de 15 ans d'expérience, Thomas est un expert dans la création de vêtements 
+                  Avec plus de 15 ans d'expérience, Derrick est un expert dans la création de vêtements 
                   sur mesure qui mettent en valeur chaque client.
                 </p>
               </div>
@@ -148,10 +148,10 @@ const AProposPage = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-bold mb-1">Sophie Ndongo</h3>
+                <h3 className="text-xl font-bold mb-1">Adassa Ngosso</h3>
                 <p className="text-amber-600 mb-4">Styliste & Formatrice</p>
                 <p className="text-gray-600">
-                  Sophie combine son œil pour la mode avec ses talents pédagogiques pour diriger 
+                  Adassa combine son œil pour la mode avec ses talents pédagogiques pour diriger 
                   nos programmes de formation et nos consultations de style.
                 </p>
               </div>
