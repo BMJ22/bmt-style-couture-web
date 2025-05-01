@@ -144,7 +144,7 @@ const BoutiquePage = () => {
                         {product.name}
                       </h3>
                       <p className="text-gray-600 mb-4">{product.description}</p>
-                      <p className="font-semibold text-lg">{product.price} €</p>
+                      <p className="font-semibold text-lg">{product.price} FCFA</p>
                       <p className="text-sm text-gray-500 mt-1">
                         {product.stock > 0 ? `En stock: ${product.stock}` : "Rupture de stock"}
                       </p>
