@@ -138,7 +138,7 @@ const BoutiqueDetailPage = () => {
             <div className="flex items-center mb-4">
               <span className="text-amber-600 font-medium">{product.category}</span>
             </div>
-            <div className="text-2xl font-semibold mb-6">{product.price} €</div>
+            <div className="text-2xl font-semibold mb-6">{product.price} FCFA</div>
             
             <div className="prose prose-lg mb-8">
               <p>{product.description}</p>
@@ -215,7 +215,7 @@ const BoutiqueDetailPage = () => {
                   </div>
                   <div className="p-4">
                     <h3 className="font-medium mb-2">{related.name}</h3>
-                    <p className="text-amber-600 font-semibold">{related.price} €</p>
+                    <p className="text-amber-600 font-semibold">{related.price} FCFA</p>
                   </div>
                 </div>
               ))}
