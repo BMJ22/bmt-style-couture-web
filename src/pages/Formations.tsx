@@ -190,7 +190,7 @@ const FormationsPage = () => {
         {/* CTA Section */}
         <section className="py-16 bg-black text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl font-playfair font-bold mb-6">Prêt à développer vos compétences?</h2>
+            <h2 className="text-3xl font-playfair font-bold mb-6">Prêt à développer vos compétences ?</h2>
             <p className="text-lg mb-8 max-w-2xl mx-auto">
               Inscrivez-vous à l'une de nos formations et lancez-vous dans l'aventure de la création.
             </p>
